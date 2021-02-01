@@ -1,0 +1,28 @@
+
+.inputBox{
+    font-size: 15px;
+    height:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .inputBox input{
+    height: 25%;
+    width:auto;
+    border-radius: 5px;
+    border: #E2E2E2 1px solid;
+    padding:15px;
+    font-size: 15px;
+    color:black;
+    background-color: white;
+  }
+  
+  .inputBox input:focus, input:active{
+    height: 25%;
+    width:auto;
+    border-radius: 5px;
+    border: #E2E2E2 1px solid;
+    padding:15px;
+    outline: none;
+  }
