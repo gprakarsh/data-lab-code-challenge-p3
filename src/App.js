@@ -57,7 +57,6 @@ function App() {
 
   return (
     <div className="App">
-      {console.log(email)}
       <div className="LoginBox">
         <div className="titleBox">
           <h1 id="title">{title}</h1>
