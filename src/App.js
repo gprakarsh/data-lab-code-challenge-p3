@@ -1,5 +1,5 @@
 import './App.css';
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import InputBox from './Components/InputBox';
 
 
@@ -10,6 +10,10 @@ function App() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPass, setConfirmPass] = useState('');
+
+  useEffect(()=>{
+    document.title=title;
+  },[title]);
 
   const forgotPassword = () => {
     setTitle('Forgot Password');
